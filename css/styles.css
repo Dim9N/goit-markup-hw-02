@@ -1,0 +1,72 @@
+.social-links .link {
+  color: teal;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+  color: orange;
+}
+
+.social-links .link:active {
+  color: red;
+}
+
+.social-links .link:visited {
+  color: green;
+}
+
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+}
+
+/* Оформление таблицы */
+.schedule {
+  border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+  padding: 8px;
+  border: 1px solid #212121;
+}
+
+.text {
+  color: tomato;
+}
+
+.text {
+  background-color: tomato;
+  color: rgb(18, 15, 194);
+}
+
+/* Чистый красный цвет: 100% красного, 0% зеленого, 0% синего */
+p {
+}
+/* Три селектора элемента с одинаковой специфичностью */
+a {
+  color: teal;
+}
+
+a {
+  color: brown;
+}
+
+/* Так как это правило стоит ниже, ко всем ссылкам применится оранжевый цвет текста */
+a {
+  color: orange;
+}
+
+.post {
+  color: green;
+}
+.post {
+  color: green;
+}
+
+.post-link {
+  color: inherit;
+}
+body {
+  color: #501515;
+}
